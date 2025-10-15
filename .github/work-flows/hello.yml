@@ -1,0 +1,13 @@
+name: Ola mundo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dizer-ola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dizer ola mundo
+        run: echo "Olá mundo"
